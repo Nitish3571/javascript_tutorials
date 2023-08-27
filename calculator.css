@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #414141;
+}
+.container{
+    width: 320px;
+    height: 550px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 50px;
+     color: #ffffff;
+    background-color: #212121;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #212121;
+    border-radius: 15px;
+}
+input{
+    border-radius: 15px;
+    padding: 34px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background: #414141;
+    color: #ffffff;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 77px;
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: #414141;
+    color: #ffffff;
+    font-size: 20px;
+}
+.oprater{
+    color: #40d61e;
+}
