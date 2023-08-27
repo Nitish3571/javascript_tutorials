@@ -12,7 +12,7 @@ function creatNoteE1(id , content){
     const element = document.createElement("textarea")
     element.classList.add("note")
     element.placeholder = "Empty note";
-    element.value = content
+    element.value = content;
 
     element.addEventListener("dblclick" , () => {
         const warning = confirm("Do you want to delete this note")
@@ -21,7 +21,8 @@ function creatNoteE1(id , content){
         }
     })
 
-    element.addEventListener("input " , () => {
+    element.addEventListener("input" , () => {
+        console.log(element.value);
         updateNote(id , element.value)
     });
     return element;
